@@ -11,5 +11,5 @@
 #'
 pull_column <- function(data, column_name) {
   data %>%
-    pull(column_name)
+    dplyr::pull(column_name)
 }
