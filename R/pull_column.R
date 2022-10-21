@@ -3,7 +3,7 @@
 #' @param data Data frame
 #' @param column_name Column name to pull, in quotes
 #'
-#' @return
+#' @return A vector
 #' @export
 #'
 #' @examples
