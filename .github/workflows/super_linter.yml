@@ -52,7 +52,7 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: tonyk7440/super-linter/slim@fix_r_deps_install
+        uses: github/super-linter@v5.0.0
         env:
           VALIDATE_ALL_CODEBASE: true
           # Change to 'master' if your main branch differs
